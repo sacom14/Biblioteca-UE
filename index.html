@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca UE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Biblioteca UE</h1>
+    </header>
+
+    <main id="app">
+        <div class="container">
+            <section class="section">
+                <h2>Libros</h2>
+                <form id="book-form">
+                    <input type="text" id="book-title" placeholder="Título del libro" required>
+                    <input type="text" id="book-author" placeholder="Autor del libro" required>
+                    <input type="number" id="book-year" placeholder="Año de publicación" required>
+                    <input type="text" id="book-genre" placeholder="Género" required>
+                    <input type="number" id="book-copies" placeholder="Copias disponibles" required>
+                    <button type="submit">Añadir Libro</button>
+                </form>
+                <div id="book-list"></div>
+            </section>
+
+            <section class="section">
+                <h2>Usuarios</h2>
+                <form id="user-form">
+                    <input type="text" id="user-name" placeholder="Nombre del usuario" required>
+                    <input type="email" id="user-email" placeholder="Correo electrónico" required>
+                    <input type="date" id="user-birthdate" required>
+                    <button type="submit">Registrar Usuario</button>
+                </form>
+                <div id="user-list"></div>
+            </section>
+
+            <section class="section">
+                <h2>Préstamos</h2>
+                <form id="loan-form">
+                    <input type="text" id="loan-user" placeholder="Nombre del usuario" required>
+                    <input type="text" id="loan-book" placeholder="Título del libro" required>
+                    <button type="submit">Pedir Prestado</button>
+                </form>
+                <div id="loan-list"></div>
+            </section>
+        </div>
+    </main>
+
+    <script src="dist/library.js"></script>
+</body>
+
+</html>
