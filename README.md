@@ -34,6 +34,4 @@ Este proyecto es una aplicación web para gestionar una biblioteca. Permite aña
     tsc
     ```
 
-4. Abre [index.html](http://_vscodecontentref_/0) en tu navegador para ver la aplicación en funcionamiento.
-
-¡Y eso es todo! Ahora deberías poder ver y usar la aplicación de la biblioteca en tu navegador.
+4. Abre [index.html] en tu navegador para ver la aplicación en funcionamiento.
